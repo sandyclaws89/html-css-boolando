@@ -20,71 +20,16 @@
     clear: both;
 }
 
-.upblock {
-    
-    height: 400px;
-    
-}
-
-.downblock{
-   
-    height: 400px;
-    
-}
-   
-.img1{ width: 300px;
-    float: left;
-    margin-right: 10px;
-
-}
-.img2{
-    width: 200px;
-}
-
-}
-
 .blc{
     float: left;
-    width: 30%;
-    margin-right: 10px;
-    height: 100px;
+    width: 31%;
+    margin-right: 15px;
+    margin-bottom: 30px;
    
 }
-
-.ig2 {
-    float: left;
-    width: 20%;
-    margin-right: 10px;
-  
-    height: 300px;
-}
-.img3 {
-    float: right;
-    width: 20%;
-    margin-right: 10px;
-  
-    height: 300px;
-}
-.img4 {
-    float: left;
-    width: 20%;
-    margin-right: 10px;
    
-    height: 300px;
-}
-.img5 {
-    float: left;
-    width: 20%;
-    margin-right: 10px;
-   
-    height: 300px;
-}
-.img6 {
-    float: right;
-    width: 20%;
-    margin-right: 10px;
-   
-    height: 300px;
+.img{ max-width: 100%;
+      margin-right: 10px;
 }
 
 .nred{
@@ -94,5 +39,38 @@
 
 .lineth{
     text-decoration: line-through;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    padding: 3px;
+    font-weight:700
+}
+
+.sost {
+    background-color: green;
+    position: absolute;
+    bottom: 5%;
+    padding: 3px;
+    left: 15%;
+    color: white;
+    font-weight:700
+}
+.sost1{
+    background-color: green;
+    position: absolute;
+    bottom: 5%;
+    padding: 3px;
+    color: white;
+    font-weight:700
+    
+}
+
+
+.position{
+    position: relative;
 }
 
