@@ -8,9 +8,91 @@
     font-size: 1em;
 }
 
+.margin{
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .cleafix::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.upblock {
+    
+    height: 400px;
     
 }
+
+.downblock{
+   
+    height: 400px;
+    
+}
+   
+.img1{ width: 300px;
+    float: left;
+    margin-right: 10px;
+
+}
+.img2{
+    width: 200px;
+}
+
+}
+
+.blc{
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    height: 100px;
+   
+}
+
+.ig2 {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+  
+    height: 300px;
+}
+.img3 {
+    float: right;
+    width: 20%;
+    margin-right: 10px;
+  
+    height: 300px;
+}
+.img4 {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+   
+    height: 300px;
+}
+.img5 {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+   
+    height: 300px;
+}
+.img6 {
+    float: right;
+    width: 20%;
+    margin-right: 10px;
+   
+    height: 300px;
+}
+
+.nred{
+    color: red;
+    font-weight: bold;
+}
+
+.lineth{
+    text-decoration: line-through;
+}
+
